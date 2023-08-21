@@ -17,3 +17,7 @@ jobs:
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           plugin_languages: yes
+          plugin_languages_skipped: Crisu1710/linux-init
+          plugin_languages_aliases: javascript:JS
+          plugin_topics: yes
+          plugin_topics_mode: icons
